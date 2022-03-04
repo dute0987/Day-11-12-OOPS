@@ -19,6 +19,8 @@ namespace InventaroryDataManagmentDemo
                 Console.WriteLine(data.typeofRice[i].name);
                 Console.WriteLine(data.typeofRice[i].weight);
                 Console.WriteLine(data.typeofRice[i].price);
+                int dataofrice = data.typeofRice[i].price * data.typeofRice[i].weight;
+                Console.WriteLine("the inventary price of " + data.typeofRice[i].name + " :" + dataofrice);
                 Console.WriteLine("----------------------");
             }
             for (int i = 0; i<data.typeofPules.Count; i++)
@@ -27,6 +29,8 @@ namespace InventaroryDataManagmentDemo
                 Console.WriteLine(data.typeofPules[i].name);
                 Console.WriteLine(data.typeofPules[i].weight);
                 Console.WriteLine(data.typeofPules[i].price);
+                int dataofpules=data.typeofPules[i].price * data.typeofPules[i].weight;
+                Console.writeLine("the inventary price of " + data.typeofPules[i].name + " :" + dataofpules);
                 Console.WriteLine("-----------------------");
             }
             for (int i = 0; i<data.typeofWheats.Count; i++)
@@ -35,6 +39,8 @@ namespace InventaroryDataManagmentDemo
                 Console.WriteLine(data.typeofWheats[i].name);
                 Console.WriteLine(data.typeofWheats[i].weight);
                 Console.WriteLine(data.typeofWheats[i].price);
+                int dataofwheats = data.typeofWheats[i].price * data.typeofWheats[i].weight;
+                Console.WriteLine("the inventary price of " + data.typeofWheats + " : " + dataofwheats);
                 Console.WriteLine("-----------------------");
             }
             //Console.WriteLine(data.weight);
