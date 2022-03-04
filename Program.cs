@@ -5,7 +5,7 @@ namespace InventaroryDataManagmentDemo
     {
         public static void Main(string[]args)
         {
-            Console.WriteLine("welcome to OOPs programing");
+            //Console.WriteLine("welcome to OOPs programing");
 
 
             string path = "C:/Users/dute0/source/repos/InventaroryDataManagment/Rice.json";
